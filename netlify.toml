@@ -1,0 +1,8 @@
+[build]
+  command = "ng build"
+  publish = "dist/stock-tracker"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
